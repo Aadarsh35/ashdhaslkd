@@ -1,0 +1,14 @@
+html{
+    font-size: 16px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1rem;
+}
+main .text{
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-top: 6vh;
+    margin-bottom: 1vh;
+}

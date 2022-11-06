@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(110, 110, 226);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+
+.logo1{
+    width: 100px;
+    padding: 0px 25px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+li{
+    padding: 20px;
+    font-size: 1.25rem;
+    color: white;
+}
+.search input{
+    height: 25px;
+    width: 400px;
+    border-top: 2px inset white ;
+    border-right: 2px inset rgb(8, 13, 13) ;
+    border-bottom: 2px inset rgb(8, 13, 13) ;
+    border-left: 2px inset white ;
+    border-radius: 6px;
+    margin: 0px 14px 0px 20px;
+    padding: 0px 13px;
+
+
+    
+}
+.search button{
+    height: 25px;
+    width: 60px;
+    background-color: rgb(110, 110, 226);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    
+}
+@media screen and (max-width: 1000px) {
+    .header{
+        height: 16vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin-top: 8px;
+    }
+    .list{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+
+
+    }
+
+   
+}
+
+@media screen and (max-width: 527px) {
+    
+    .header{
+        height: 19vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin-top: 8px;
+    }
+    .list{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+
+
+}
+    .search button{
+        margin-left: 21px;
+    }
+}
+body{
+    background-color: rgb(198, 232, 232);
+}
+
+main .photo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    
+    
+}
+
+main .cricket{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+main .furniture{
+    display: flex;
+    justify-content: space-evenly;   
+}
+main .phones{
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(110, 110, 226);
+    color: white;
+    margin-top: 2vh;
+
+
+
+}
